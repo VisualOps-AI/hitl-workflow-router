@@ -11,6 +11,32 @@
 
 ---
 
+## Demo
+
+**Four policy decisions, four operational paths.** `allow → allowed`,
+`deny → denied`, `sandbox → sandbox_queued`, `approval_required → pending_approval`:
+
+![Routing the four decision types](screenshots/decision-routing.png)
+
+**The human-in-the-loop gate.** A pending request is held until a human approves it
+(`pending_approval → approved`):
+
+![Pending and approve flow](screenshots/approval-flow.png)
+
+**An append-only audit trail** for every request — who decided what, and when:
+
+![Audit trail for a request](screenshots/audit-trail.png)
+
+**The full board** via `list --pretty`:
+
+![Listing all workflow records](screenshots/list.png)
+
+**Guardrails hold.** You cannot approve a request that was already denied:
+
+![Guardrail rejection](screenshots/guardrail.png)
+
+---
+
 ## Problem
 
 Autonomous agents increasingly take real actions — running commands, calling APIs,
