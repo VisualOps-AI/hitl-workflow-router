@@ -1,0 +1,21 @@
+{
+  "requestId": "req-deny-001",
+  "agentId": "agent-ops-07",
+  "action": {
+    "type": "shell_command",
+    "target": "prod-db-primary",
+    "parameters": {
+      "command": "rm -rf /var/lib/postgresql/data"
+    }
+  },
+  "policyDecision": {
+    "decision": "deny",
+    "policyId": "pol-destructive-fs",
+    "reason": "Destructive filesystem operation on a production database host.",
+    "evaluatedAt": "2026-05-29T17:02:00.000Z"
+  },
+  "metadata": {
+    "source": "agent-policy-engine",
+    "severity": "critical"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "requestId": "req-allow-001",
+  "status": "allowed",
+  "policyDecision": "allow",
+  "routedAt": "2026-05-29T17:00:05.000Z",
+  "message": "Request \"req-allow-001\" routed to \"allowed\"."
+}

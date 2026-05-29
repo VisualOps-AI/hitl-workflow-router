@@ -1,0 +1,21 @@
+{
+  "requestId": "req-allow-001",
+  "agentId": "agent-research-01",
+  "action": {
+    "type": "http_get",
+    "target": "https://api.example.com/v1/status",
+    "parameters": {
+      "timeoutMs": 5000
+    }
+  },
+  "policyDecision": {
+    "decision": "allow",
+    "policyId": "pol-net-readonly",
+    "reason": "Read-only GET to an allowlisted domain.",
+    "evaluatedAt": "2026-05-29T17:00:00.000Z"
+  },
+  "metadata": {
+    "source": "agent-policy-engine",
+    "severity": "low"
+  }
+}

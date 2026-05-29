@@ -1,0 +1,22 @@
+{
+  "requestId": "req-sandbox-001",
+  "agentId": "agent-codegen-03",
+  "action": {
+    "type": "code_execution",
+    "target": "python3",
+    "parameters": {
+      "language": "python",
+      "snippet": "import requests; print(requests.get('https://example.com').status_code)"
+    }
+  },
+  "policyDecision": {
+    "decision": "sandbox",
+    "policyId": "pol-untrusted-code",
+    "reason": "Untrusted generated code must run in an isolated sandbox before release.",
+    "evaluatedAt": "2026-05-29T17:03:00.000Z"
+  },
+  "metadata": {
+    "source": "agent-policy-engine",
+    "severity": "medium"
+  }
+}

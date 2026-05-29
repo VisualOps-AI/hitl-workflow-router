@@ -1,0 +1,7 @@
+{
+  "requestId": "req-sandbox-001",
+  "status": "sandbox_queued",
+  "policyDecision": "sandbox",
+  "routedAt": "2026-05-29T17:03:05.000Z",
+  "message": "Request \"req-sandbox-001\" routed to \"sandbox_queued\"."
+}

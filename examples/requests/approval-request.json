@@ -1,0 +1,21 @@
+{
+  "requestId": "req-001",
+  "agentId": "agent-ops-07",
+  "action": {
+    "type": "shell_command",
+    "target": "system-host-01",
+    "parameters": {
+      "command": "systemctl restart api-gateway"
+    }
+  },
+  "policyDecision": {
+    "decision": "approval_required",
+    "policyId": "pol-prod-mutation",
+    "reason": "Production service restart requires human sign-off.",
+    "evaluatedAt": "2026-05-29T17:05:00.000Z"
+  },
+  "metadata": {
+    "environment": "production",
+    "severity": "high"
+  }
+}

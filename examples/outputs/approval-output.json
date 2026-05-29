@@ -1,0 +1,7 @@
+{
+  "requestId": "req-001",
+  "status": "pending_approval",
+  "policyDecision": "approval_required",
+  "routedAt": "2026-05-29T17:05:05.000Z",
+  "message": "Request \"req-001\" routed to \"pending_approval\"."
+}
